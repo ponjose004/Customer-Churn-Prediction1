@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # Load saved artifacts once
-model = joblib.load(r'D:\Growthlink\Task 3\churn_model.pkl')
-scaler = joblib.load(r'D:\Growthlink\Task 3\scaler.pkl')
-encoders = joblib.load(r'D:\Growthlink\Task 3\label_encoders.pkl')
+model = joblib.load('Model files/churn_model.pkl')
+scaler = joblib.load('Model files/scaler.pkl')
+encoders = joblib.load('Model files/label_encoders.pkl')
 
 st.title('Customer Churn Prediction App')
 
